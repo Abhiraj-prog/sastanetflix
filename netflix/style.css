@@ -1,0 +1,230 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: max(1200px ,100vw);
+    height: 95vh;
+    position: relative;
+}
+.main .box{
+    height: 95vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+nav{
+    max-width: 75vw;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 90px;
+    
+}
+nav img{
+    color: red;
+    width: 145px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    height:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: "Martel Sans", sans-serif;
+    gap: 23px;
+    padding: 0 30px;
+    text-align: center;
+}
+.hero> :nth-child(1){
+    font-weight: 900;
+    font-size: 44px;
+    
+}
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+}
+.separation{
+    height: 7px;
+    background-color: rgb(70, 69, 69);
+}
+.btn{
+    padding:  8px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 9px 25px;
+}
+.btn-red{
+    background-color: rgb(207, 6, 6);
+    color: white;
+    border: none;
+    padding: 16px 35px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.main input{
+    padding: 15px 65px;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 0.1px solid rgba(246, 241, 241, 0.4) ;
+}
+.btn-red-sm{
+    background-color: rgb(207, 6, 6);
+    color: white;
+    padding: 9px 16px;
+    border: none;
+    border-radius: 4px;
+}
+.english{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 77vw;
+    margin: auto;
+    color: white;
+    height: 600px;
+}
+.secimg{
+    position: relative;
+}
+.secimg img{
+    width: 38vw;
+    position: relative;
+    z-index: 10;
+}
+.secimg video{
+    position: absolute;
+    top: 70px;
+    right: 65px;
+    width:28vw ;
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+section.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+    
+section.first > div :nth-child(2){
+    font-size: 23px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+}
+.third video{
+    width: 21vw;
+    position: absolute;
+    top: 33px;
+    right: 93px;
+}
+.third img{
+    width: 35vw;
+    position: relative;
+    z-index: 10;
+}
+.faq h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+
+}
+.faq{
+    background-color: black;
+    color: white;
+    padding: 55px;
+
+}
+.faqbox:hover{
+    background-color:rgb(72, 71, 71) ;
+}
+.faqbox{
+    transition: all 1s ease-out;
+    display: flex;
+    background-color: rgb(45, 45, 45);
+    max-width: 71vw;
+    margin: 12px auto;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 27px;
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+.faqbox svg{
+    color: white;
+    
+}
+footer{
+    color: white;
+    max-width: 70vw;
+    margin: auto;
+    padding: 34px;
+}
+.questions{
+    padding: 20px 0;
+    font-size: 17px;
+    color: rgb(180, 173, 173);
+}
+
+.footer a{
+    text-decoration: underline;
+    color: rgb(180, 173, 173);
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
